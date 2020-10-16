@@ -1,0 +1,129 @@
+html, body{
+    height: 100%;
+    font-family: 'Roboto';
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 0
+}
+
+p, ol, ul{
+    margin-top: 0;
+}
+
+p{
+    line-height: 180%;
+}
+
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    margin: 0px auto;
+    width: 1200px;
+}
+
+header{
+    overflow: hidden;
+}
+
+#top-header{
+    text-align: center;
+    height: 60px;
+    background-image: linear-gradient(to right, #49002b, #0074D9);
+    font-family: 'Montserrat', 'Roboto';
+}
+
+#logo{
+    float: left;
+    padding: none;
+    margin: none;
+    height: 60px;
+    font-size: 48px;
+    font-weight: 900;
+    width: 30%;
+    color: white;
+}
+
+#logo img{
+    width: 60%;
+    float: left;
+    padding: 10px 0px;
+}
+
+#menu{ 
+	float: right; 
+	width: 70%; 
+	height: 100%; 
+	margin: none; 
+} 
+	
+#menu ul{ 
+	text-align: center; 
+	float: right; 
+	margin: none; 
+    width: 900px;
+} 
+	
+#menu li{ 
+	display: inline-block; 
+	padding: none; 
+	margin: none; 
+} 
+	
+#menu li a, #menu li span{ 
+	display: inline-block; 
+	padding: 0em 3em; 
+	text-decoration: none; 
+	font-weight: 600; 
+	text-transform: uppercase; 
+	line-height: 60px; 
+} 
+	
+#menu li a{ 
+		
+	color: #FFF; 
+} 
+
+#menu li:hover a, #menu li span{ 
+	background: #0074D9;
+	color: white; 
+	border-left: 1px solid #0074D9; 
+	text-decoration: none; 
+}
+
+#Date{
+    font-size: small;
+    padding: 24px;
+    text-align: center;
+}
+
+#Title{
+    font-size: 60px;
+    text-align: center;
+    padding: 36px;
+    color: #023969;
+}
+
+footer{
+    height: 240px;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #49002b, #0074D9);
+}
+
+hr{
+    width: 300px;
+    color: #0074D9;
+}
